@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="login;sukses-login" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="@successs" value="true">
+            </property>
+            <property name="URI" value="E:/IFX 41-02/SEMESTER 3 IFX 41 02/PMPL/functional-test/features/login.feature">
+            </property>
+        </properties>
+        <testcase name="Given user melakukan login" classname="login;sukses-login" time="0.000742942">
+        </testcase>
+        <testcase name="And user membuka halaman awal citramart" classname="login;sukses-login" time="0.0008929">
+        </testcase>
+        <testcase name="And user memasukan  username" classname="login;sukses-login" time="0.000179037">
+        </testcase>
+        <testcase name="And user memasukan password" classname="login;sukses-login" time="0.00015908">
+        </testcase>
+        <testcase name="When user klik tombol login" classname="login;sukses-login" time="0.000152238">
+        </testcase>
+        <testcase name="Then user sudah masuk" classname="login;sukses-login" time="0.000135132">
+        </testcase>
+    </testsuite>
+    <testsuite name="pengelolaan;sukses-login-citramart" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="@successs" value="true">
+            </property>
+            <property name="URI" value="E:/IFX 41-02/SEMESTER 3 IFX 41 02/PMPL/functional-test/features/pengelolaan.feature">
+            </property>
+        </properties>
+        <testcase name="Given admin melakukan login" classname="pengelolaan;sukses-login-citramart" time="0.000323291">
+        </testcase>
+        <testcase name="And admin membuka halaman pengelolaan keuangan" classname="pengelolaan;sukses-login-citramart" time="0.001923212">
+        </testcase>
+        <testcase name="And admin enter data keuntungan" classname="pengelolaan;sukses-login-citramart" time="0.000405967">
+        </testcase>
+        <testcase name="And admin enter data hutang" classname="pengelolaan;sukses-login-citramart" time="0.000376318">
+        </testcase>
+        <testcase name="When admin klik tombol submit" classname="pengelolaan;sukses-login-citramart" time="0.000267984">
+        </testcase>
+        <testcase name="Then data dikelola" classname="pengelolaan;sukses-login-citramart" time="0.00028623">
+        </testcase>
+    </testsuite>
+    <testsuite name="transaksi;sukses-login-citramart" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="@successs" value="true">
+            </property>
+            <property name="URI" value="E:/IFX 41-02/SEMESTER 3 IFX 41 02/PMPL/functional-test/features/transaksi.feature">
+            </property>
+        </properties>
+        <testcase name="Given admin login" classname="transaksi;sukses-login-citramart" time="0.000429345">
+        </testcase>
+        <testcase name="And admin melakukan input,edit data barang" classname="transaksi;sukses-login-citramart" time="0.001386103">
+        </testcase>
+        <testcase name="And admin input nama, kode barang" classname="transaksi;sukses-login-citramart" time="0.000282238">
+        </testcase>
+        <testcase name="And admin input metode pembayaran" classname="transaksi;sukses-login-citramart" time="0.000217238">
+        </testcase>
+        <testcase name="When admin edit dan update data dalam database" classname="transaksi;sukses-login-citramart" time="0.000297633">
+        </testcase>
+        <testcase name="Then jumlah barang berkurang" classname="transaksi;sukses-login-citramart" time="0.000299914">
+        </testcase>
+    </testsuite>
+</testsuites>

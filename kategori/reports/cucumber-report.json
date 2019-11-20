@@ -1,0 +1,350 @@
+[
+  {
+    "description": "user login",
+    "elements": [
+      {
+        "id": "login;sukses-login",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "sukses login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user melakukan login",
+            "result": {
+              "status": "passed",
+              "duration": 742942
+            },
+            "line": 6,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\step-definitions\\login-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user membuka halaman awal citramart",
+            "result": {
+              "status": "passed",
+              "duration": 892900
+            },
+            "line": 7,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\step-definitions\\login-steps.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user memasukan  username",
+            "result": {
+              "status": "passed",
+              "duration": 179037
+            },
+            "line": 8,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\step-definitions\\login-steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user memasukan password",
+            "result": {
+              "status": "passed",
+              "duration": 159080
+            },
+            "line": 9,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\step-definitions\\login-steps.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user klik tombol login",
+            "result": {
+              "status": "passed",
+              "duration": 152238
+            },
+            "line": 10,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\step-definitions\\login-steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user sudah masuk",
+            "result": {
+              "status": "passed",
+              "duration": 135132
+            },
+            "line": 11,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\step-definitions\\login-steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 19883586103
+            },
+            "hidden": true,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@successs",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "login",
+    "tags": [],
+    "uri": "E:/IFX 41-02/SEMESTER 3 IFX 41 02/PMPL/functional-test/features/login.feature"
+  },
+  {
+    "description": "user login",
+    "elements": [
+      {
+        "id": "pengelolaan;sukses-login-citramart",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "sukses login citramart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "admin melakukan login",
+            "result": {
+              "status": "passed",
+              "duration": 323291
+            },
+            "line": 6,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\step-definitions\\pengelolaan-step.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "admin membuka halaman pengelolaan keuangan",
+            "result": {
+              "status": "passed",
+              "duration": 1923212
+            },
+            "line": 7,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\step-definitions\\pengelolaan-step.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "admin enter data keuntungan",
+            "result": {
+              "status": "passed",
+              "duration": 405967
+            },
+            "line": 8,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\step-definitions\\pengelolaan-step.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "admin enter data hutang",
+            "result": {
+              "status": "passed",
+              "duration": 376318
+            },
+            "line": 9,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\step-definitions\\pengelolaan-step.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "admin klik tombol submit",
+            "result": {
+              "status": "passed",
+              "duration": 267984
+            },
+            "line": 10,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\step-definitions\\pengelolaan-step.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "data dikelola",
+            "result": {
+              "status": "passed",
+              "duration": 286230
+            },
+            "line": 11,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\step-definitions\\pengelolaan-step.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 20022762663
+            },
+            "hidden": true,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@successs",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "pengelolaan",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "pengelolaan",
+    "tags": [],
+    "uri": "E:/IFX 41-02/SEMESTER 3 IFX 41 02/PMPL/functional-test/features/pengelolaan.feature"
+  },
+  {
+    "description": "admin login",
+    "elements": [
+      {
+        "id": "transaksi;sukses-login-citramart",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "sukses login citramart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "admin login",
+            "result": {
+              "status": "passed",
+              "duration": 429345
+            },
+            "line": 6,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\step-definitions\\transaksi-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "admin melakukan input,edit data barang",
+            "result": {
+              "status": "passed",
+              "duration": 1386103
+            },
+            "line": 7,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\step-definitions\\transaksi-steps.js:4"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "admin input nama, kode barang",
+            "result": {
+              "status": "passed",
+              "duration": 282238
+            },
+            "line": 8,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\step-definitions\\transaksi-steps.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "admin input metode pembayaran",
+            "result": {
+              "status": "passed",
+              "duration": 217238
+            },
+            "line": 9,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\step-definitions\\transaksi-steps.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "admin edit dan update data dalam database",
+            "result": {
+              "status": "passed",
+              "duration": 297633
+            },
+            "line": 10,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\step-definitions\\transaksi-steps.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "jumlah barang berkurang",
+            "result": {
+              "status": "passed",
+              "duration": 299914
+            },
+            "line": 11,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\step-definitions\\transaksi-steps.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 22220109964
+            },
+            "hidden": true,
+            "match": {
+              "location": "02\\PMPL\\functional-test\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@successs",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "transaksi",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "transaksi",
+    "tags": [],
+    "uri": "E:/IFX 41-02/SEMESTER 3 IFX 41 02/PMPL/functional-test/features/transaksi.feature"
+  }
+]
